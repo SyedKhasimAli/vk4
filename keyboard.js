@@ -70,6 +70,35 @@
      
     }
 
+var display = document.getElementById('disp');
+
+function back()
+{
+var ss = display.selectionStart;
+var se = display.selectionEnd;
+var ln  = display.value.length;
+
+var textbefore = display.value.substring( 0, ss );    //text in front of selected text
+var textselected = display.value.substring( ss, se ); //selected text
+var textafter = display.value.substring( se, ln );    //text following selected text
+
+if(ss==se) // if no text is selected
+{
+    display.value = display.value.substring(0, ss-1 ) + display.value.substring(se, ln );
+    display.focus();
+    display.selectionStart = ss-1;
+    display.selectionEnd = ss-1;
+}
+// else // if some text is selected
+// {
+//     display.value = textbefore + textafter ;
+//     display.focus();
+//     display.selectionStart = ss;
+//     display.selectionEnd = ss;
+// }
+
+}
+
 
 
 
