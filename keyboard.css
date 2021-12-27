@@ -1,0 +1,155 @@
+
+body{
+    background-color:whitesmoke
+}
+.keyboard{
+    /* justify-content: center; */
+    align-items: center;
+    margin: auto;
+    width:auto;
+    height:auto;
+    padding:0.1em;
+    font-size: 50px;
+    box-shadow: 20px 20px 18px rgb(3, 3, 3);
+    background-color: blanchedalmond;         
+}
+textarea{
+    display: flex;
+    margin:auto;
+    width:50%;
+    height:10%;
+    margin-top:1%;
+     
+    font-weight: bold;
+    background-color: rgb(238, 0, 0);
+    color:wheat;
+    font-size:30px;
+}
+
+button{
+    font-size: 25px;
+    background-color: rgb(30, 18, 51);
+    color:white;
+    font-family:cursive;
+    /* border-radius: 30%; */
+    cursor: pointer;
+    margin:21px;   
+    box-shadow: 20px 20px 18px beige;
+ 
+    
+}
+button:hover{
+    font-size:26px;
+    text-shadow: blue;
+    background-color: grey;
+    
+}
+#cap:active{
+    background-color: blue;
+}
+.but{
+   justify-content: center;
+   align-items: center;
+
+}
+.uppercase{
+    text-transform:lowercase;
+}
+.buton{
+    /* background-color: #aee6fc; */
+    width:auto;
+    padding:7%;
+    /* border-radius: 30%; */
+
+    height:auto;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow:10px 20px 30px black; */
+}
+p{
+    text-align: center;
+}
+h6{
+    font-size: 30px;
+    text-align:center;
+    margin:0;
+}
+@media  screen and (max-width: 1400px) {
+  
+.buton{
+   
+    /* background-color: #048ccb; */
+    width:auto;
+    height:auto;;
+    border-radius: 0%;
+    margin-top:40%;
+    /* align-items: center; */
+    justify-content: center;
+    box-shadow:10px 20px 30 black;
+    padding:2%;
+
+}
+button{
+    font-size: 21px;
+    background-color: black;
+    color:white;
+    font-family:cursive;
+
+    cursor: pointer;
+    margin:1%;     
+}
+button:hover{
+    font-size:19px;
+    
+    background-color: tomato;
+    
+}
+.keyboard{
+    
+    justify-content: center;
+    align-items: center;
+    margin-top:1px;
+    width:auto;
+    height:auto;
+    /* padding: 2px; */
+    font-size:10px;
+    box-shadow: 20px 20px 18px white;
+    background-color: blanchedalmond;
+    border-radius: 0%;
+    
+    
+      
+}
+h6{
+    font-size:50px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+textarea{
+    
+    margin:auto;
+    width:50%;
+  
+    height:10%;
+    margin-top:2%;
+    font-size: 40px;
+    background-color:rgb(122, 17, 17);
+    color:white;
+   
+}
+body{
+    background-color:gray;
+}
+.butt{
+    margin-bottom:30px;
+    margin-top:20px;
+    text-align: center;
+   
+    
+}
+
+}
